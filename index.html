@@ -29,20 +29,28 @@
         .bio-box a {
             color: green;
         }
+
+        .alert {
+            background-color: red;
+        }
+        
+        #exec-bio.alert {
+            background-color: red;
+        }
     </style>
 </head>
 <body>
     <h1>I'm an H1</h1>
     <ul>
-        <li><a href="https://example.com" id="s-link">Link</a></li>
-        <li><a href="https://example.com" class="r-link">Link</a></li>
-        <li><a href="https://example.com" class="r-link">Link</a></li>
+        <li><a href="#" id="s-link">Link</a></li>
+        <li><a href="#" class="r-link">Link</a></li>
+        <li><a href="#" class="r-link">Link</a></li>
     </ul>
     <h2>I'm an H2</h2>
     <ul>
-        <div id="exec-bio"><a href="https://example.com">I'm a Link</a></div>
-        <div class="bio-box"><a href="https://example.com">I'm a Link</a></div>
-        <div class="bio-box"><a href="https://example.com">I'm a Link</a></div>
+        <div id="exec-bio" class="bio-box alert"><a href="#">I'm a Link</a></div>
+        <div class="bio-box"><a href="#">I'm a Link</a></div>
+        <div class="bio-box alert"><a href="#">I'm a Link</a></div>
     </ul>
 </body>
 </html>
